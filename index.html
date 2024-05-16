@@ -1,0 +1,38 @@
+<!doctype html>
+
+<head>
+    <title>Connect 4</title>
+    <link href="connect4.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Connect Four Game</h1>
+    <form action="#" id="gameForm">
+
+        <label for="p1ColorPick">Player1 Color :
+            <input type="text" id="p1Color" placeholder="Player1 Color name">
+            <input type="color" id="p1ColorPick">
+        </label>
+
+        <label for="p2ColorPick">Player2 Color :
+            <input type="text" id="p2Color" placeholder="Player 2 Color name">
+            <input type="color" id="p2ColorPick">
+        </label>
+
+        <div class="colorTip">
+            Tip : You can type the color name or You can select a color from color picker.
+        </div>
+
+        <button id="start">Start game</button>
+    </form>
+
+
+    <div id="game">
+        <table id="board"></table>
+    </div>
+
+    <script src="connect4.js"></script>
+
+</body>
+
+</html>
